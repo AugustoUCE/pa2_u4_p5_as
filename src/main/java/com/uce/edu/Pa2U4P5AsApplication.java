@@ -10,4 +10,6 @@ public class Pa2U4P5AsApplication {
 		SpringApplication.run(Pa2U4P5AsApplication.class, args);
 	}
 
+	
+
 }
