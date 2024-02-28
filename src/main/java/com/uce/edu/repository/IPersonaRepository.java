@@ -11,8 +11,12 @@ public interface IPersonaRepository {
 	public void actualizar(Persona persona);
 
 	public Persona seleccionarPorCedula(String cedula);
+	
+	public Persona seleccionarPorId(Integer id);
 
 	public void eliminarPorCedula(String cedula);
 	
 	public List<Persona> consultarTodos();
+	
+	
 }

@@ -11,6 +11,8 @@ public interface IPersonaService {
 	public void actualizar(Persona persona);
 
 	public Persona buscarPorCedula(String cedula);
+	
+	public Persona buscarPorId(Integer id);
 
 	public void eliminarPorCedula(String cedula);
 	

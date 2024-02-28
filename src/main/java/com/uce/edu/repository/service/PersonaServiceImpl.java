@@ -44,4 +44,10 @@ public class PersonaServiceImpl implements IPersonaService {
 		return this.personaRepository.consultarTodos();
 	}
 
+	@Override
+	public Persona buscarPorId(Integer id) {
+		// TODO Auto-generated method stub
+		return this.personaRepository.seleccionarPorId(id);
+	}
+
 }

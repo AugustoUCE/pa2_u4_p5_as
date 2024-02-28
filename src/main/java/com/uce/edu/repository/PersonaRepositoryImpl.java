@@ -58,4 +58,10 @@ this.entityManager.persist(persona);
 		return myQuery.getResultList();
 	}
 
+	@Override
+	public Persona seleccionarPorId(Integer id) {
+		// TODO Auto-generated method stub
+		return this.entityManager.find(Persona.class, id);
+	}
+
 }
